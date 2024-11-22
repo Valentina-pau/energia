@@ -1,0 +1,81 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+/* Contenido Principal */
+main {
+    width: 80%;
+    margin-top: 30px;
+}
+
+section h2 {
+    color: #00796b;
+}
+
+/* Estilo de la sección de beneficios y pasos */
+ul, ol {
+    padding-left: 20px;
+}
+
+.benefits li, .steps li {
+    margin-bottom: 10px;
+}
+
+/* Dibujo del bombillo */
+.bombillo {
+    width: 100px;
+    height: 200px;
+    background-color: #FFEB3B; /* Amarillo para el bombillo */
+    border: 5px solid red; /* Borde rojo y cuadrado */
+    position: relative;
+    margin-top: 30px;
+}
+
+/* Filamento del bombillo */
+.filamento {
+    width: 30px;
+    height: 40px;
+    background-color: #333; /* Gris oscuro para el filamento */
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Base del bombillo */
+.base {
+    width: 40px;
+    height: 20px;
+    background-color: #B0BEC5; /* Gris para la base */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+/* Agregar el bombillo al body o sección deseada */
+.bombillo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
